@@ -1,0 +1,28 @@
+﻿body {
+}
+
+
+
+#pascal{
+    
+    display:flex;
+    flex-direction:column;
+
+}
+
+.sor{
+    display:flex;
+    flex-direction:row;
+    background-color:aqua;
+    justify-content:center;
+
+}
+
+.elem{
+    background-color:fuchsia;
+    height:30px;
+    width:30px;
+    text-align:center;
+    line-height:30px;
+    margin:1px;
+}

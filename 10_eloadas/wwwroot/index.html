@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="nagyonszep.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="pascal">
+
+    </div>
+
+    <script>
+        var pascal = document.getElementById("pascal");
+        var méret = 10;
+        for (var s = 0; s < méret; s++) {
+            var újsor = document.createElement("div")
+            újsor.classList.add("sor");
+            /*újsor.innerHTML = "*";*/
+            pascal.appendChild(újsor);
+
+            for (var o = 0; o < s; o++) {
+                var újelem = document.createElement("div");
+                újelem.innerHTML = "*";
+                újelem.classList.add("elem");
+                újsor.appendChild(újelem);
+                
+
+            }
+
+        }
+
+        function faktor(n) {
+
+        }
+
+        var faktor2 = function (n) {
+
+        }
+
+        var faktor3 = (n) => {
+
+           
+        }
+
+    </script>
+
+</body>
+</html>
